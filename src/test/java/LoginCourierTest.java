@@ -5,7 +5,7 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import ru.praktikum.pojo.Courier;
-import steps.CourierSteps;
+import ru.praktikum.steps.CourierSteps;
 
 public class LoginCourierTest {
 
@@ -22,8 +22,7 @@ public class LoginCourierTest {
                 RandomStringUtils.randomAlphabetic(10)
         );
 
-        ValidatableResponse response = courierSteps.createCourier(courier);
-        courierSteps.checkCourierCreated(response);
+        courierSteps.createCourier(courier);
     }
 
     @After

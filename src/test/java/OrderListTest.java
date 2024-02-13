@@ -1,7 +1,7 @@
 import io.qameta.allure.junit4.DisplayName;
 import io.restassured.response.ValidatableResponse;
 import org.junit.Test;
-import steps.OrderSteps;
+import ru.praktikum.steps.OrderSteps;
 
 public class OrderListTest {
 

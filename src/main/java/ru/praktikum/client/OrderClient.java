@@ -5,7 +5,7 @@ import ru.praktikum.pojo.Order;
 
 public class OrderClient extends BaseHttpClient {
 
-    private final String BASE_PATH = "api/v1/orders/";
+    private static final String BASE_PATH = "api/v1/orders/";
 
     public Response get() {
         return getRequest(BASE_PATH);

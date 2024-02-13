@@ -5,7 +5,7 @@ import ru.praktikum.pojo.Courier;
 
 public class CourierClient extends BaseHttpClient {
 
-    private final String BASE_PATH = "api/v1/courier/";
+    private static final String BASE_PATH = "api/v1/courier/";
 
     public Response create(Courier courier) {
         return postRequest(BASE_PATH, courier);

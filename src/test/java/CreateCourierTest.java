@@ -4,7 +4,7 @@ import org.apache.commons.lang3.RandomStringUtils;
 import org.junit.Before;
 import org.junit.Test;
 import ru.praktikum.pojo.Courier;
-import steps.CourierSteps;
+import ru.praktikum.steps.CourierSteps;
 
 public class CreateCourierTest {
 

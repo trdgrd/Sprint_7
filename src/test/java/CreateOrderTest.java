@@ -5,7 +5,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import ru.praktikum.pojo.Order;
-import steps.OrderSteps;
+import ru.praktikum.steps.OrderSteps;
 
 @RunWith(Parameterized.class)
 public class CreateOrderTest {
